@@ -30,10 +30,10 @@
       <a-light type="directional" light="castShadow:true;" position="1 1 1" intensity="1.57" shadow-camera-automatic="#objects"></a-light>
       <a-camera position="0 0.4 0" wasd-controls="acceleration:10;"></a-camera>
       <a-entity id="objects" scale="0.2 0.2 0.2" position="0 0 -1" shadow>
-        <a-sphere position="0 0.5 0" radius="0.5" color="#FFFFFF"></a-sphere>
-        <a-sphere position="0 1.25 0" radius="0.35" color="#FFFFFF"></a-sphere>
-        <a-sphere position="0 1.85 0" radius="0.25" color="#FFFFFF"></a-sphere>
-        <a-cone position="0 1.85 0.25" radius-bottom="0.05" radius-top="0" height="0.2" color="#FFA500" rotation="90 0 0"></a-cone>
+        <a-sphere position="0 0.5 -1" radius="0.5" color="#FFFFFF"></a-sphere>
+        <a-sphere position="0 1.25 -1" radius="0.35" color="#FFFFFF"></a-sphere>
+        <a-sphere position="0 1.85 -1" radius="0.25" color="#FFFFFF"></a-sphere>
+        <a-cone position="0 1.85 -0.50" radius-bottom="0.05" radius-top="0" height="0.2" color="#FFA500" rotation="90 0 0"></a-cone>
       </a-entity>
       <a-plane follow-shadow="#objects" material="shader:shadow" shadow="cast:false;" rotation="-90 0 0" width="2" height="2"></a-plane>
       <a-sky color="#ECECEC" hide-on-enter-ar></a-sky>
